@@ -124,7 +124,7 @@ iPy compatible "Overloads", on a class:
 from System import String, Char, Int32
 
 s = String.Overloads[Char, Int32]('A', 10)
-s = String.__overloads[__Char, Int32]('A', 10)
+s = String.__overloads__[Char, Int32]('A', 10)
 ```
 
 ## Using Generics
